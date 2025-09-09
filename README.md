@@ -11,6 +11,9 @@ ETL process/
 ├── Bronze.ipynb         # Ingestion & raw layer
 ├── Silver.ipynb         # Cleansing & standardization
 └── Rank_Pozos.ipynb     # Gold layer: ranking of wells
+```
+
+
 
 
 ## Purpose
