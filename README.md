@@ -5,11 +5,13 @@ The goal is to simulate a **streaming ETL process** following the **Medallion Ar
 
 ## Project Structure
 
-Data-prod/ # Raw production data from Pemex
+```text
+Data-prod/               # Raw production data from Pemex
 ETL process/
-├── Bronze.ipynb # Ingestion & raw layer
-├── Silver.ipynb # Cleansing & standardization
-└── Rank_Pozos.ipynb # Gold layer: ranking of wells
+├── Bronze.ipynb         # Ingestion & raw layer
+├── Silver.ipynb         # Cleansing & standardization
+└── Rank_Pozos.ipynb     # Gold layer: ranking of wells
+
 
 ## Purpose
 
